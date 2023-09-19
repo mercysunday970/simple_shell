@@ -1,18 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Entry point for the program
+ * add_numbers - Adds two integers.
+ * @a: The first integer.
+ * @b: The second integer.
  *
- * Return: always return 0 (success)
+ * Return: The sum of the two integers.
  */
-int main(void)
+int add_numbers(int a, int b)
 {
-	int i = 0;
-
-	for (i = 0; i < 5; i++)
-	{
-		printf("Hello Betty \n");
-	}
-	
-	return (0);
+    return a + b;
 }
